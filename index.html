@@ -16,6 +16,7 @@
    *{
     margin: 0;
     padding: 0 0 0 10px;
+    background-color: #000000;
    }
 
    ul{
@@ -23,6 +24,13 @@
     list-style:none;
     display: flex;
     margin: 100px auto;
+   }
+
+   .title{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
    }
 
    .min{
@@ -97,7 +105,7 @@
     margin-right: 2px;
     padding: 0px;
     overflow: hidden;
-    height: 57px;
+    height: 100px;
 }
 
 #miniaturas{
@@ -118,6 +126,10 @@
  </head>
  
  <body onload="ajustaZoom()">
+
+    <div class="title">
+        <H1> Galeria de Imagens</H1>
+    </div>
 
   <ul>
    <li><a href="#img1"><img src="./img/img1.jpg" class="min"></a></li>
@@ -163,16 +175,16 @@
   </div>
   <div id="miniaturas">
     <div class="box-miniatura">
-        <a href="#img1"> <img src="./img/img1.jpg" width="100" height="57" alt=""></a>
+        <a href="#img1"> <img src="./img/img1.jpg" width="100" height="70" alt=""></a>
     </div>
     <div class="box-miniatura"><span class="box-miniatural"></span>
-        <a href="#img2"> <img src="./img/img2.jpg" width="100" height="57" alt=""></a>
+        <a href="#img2"> <img src="./img/img2.jpg" width="100" height="70" alt=""></a>
     </div>
     <div class="box-miniatura"><span class="box-miniatural"></span>
-        <a href="#img3"> <img src="./img/img.3.jpg" width="100" height="57" alt=""></a>
+        <a href="#img3"> <img src="./img/img.3.jpg" width="100" height="70" alt=""></a>
     </div>
     <div class="box-miniatura"><span class="box-miniatural"></span>
-        <a href="#img4"> <img src="./img/img.4.jpg" width="100" height="57" alt=""></a>
+        <a href="#img4"> <img src="./img/img.4.jpg" width="100" height="70" alt=""></a>
     </div>
  </body>
 </html>
